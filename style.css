@@ -1,3 +1,43 @@
 body{
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+
+ /* background-size: cover;
+  background-attachment: fixed;*/
+}
+
+.unexploded {
+	background-image: url("./img/simcity.jpg");
+}
+
+.exploded {
+	background-image: url("./img/explosion.jpg");
+}
+
+#box {
+	background-color: #777;
+	display: inline-block;
+	padding: 35px 25px 50px 25px;
+	border: 5px solid black;
+}
+
+#timer {
+	color: chartreuse;
+	font-size: 36px;
+	background-color: black;
+	border: 1px solid white;
+}
+
+#message {
+	font-size: 36px;
+	background: linear-gradient(to bottom right, yellow, blue);
+	color: white;
+
+	/*padding: 20px;*/
+}
+
+#reset {
+	font-size: 24px;
+	padding: 10px;
 }
